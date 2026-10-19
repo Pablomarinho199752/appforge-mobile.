@@ -1,5 +1,18 @@
-# AppForge Mobile
+# AppForge Mobile — Android 0.1.0
 
-Projeto Android independente para criar modelos simples de aplicativos, editar componentes e salvar projetos.
+Aplicativo gratuito, nativo Android, com Kotlin e Jetpack Compose.
 
-Os arquivos de código e a automação de APK serão adicionados em seguida. O primeiro build é de testes e requer validação no dispositivo.
+## Primeiro protótipo
+- Modelos: Anotações, Finanças, Estudos, Estoque e Em branco.
+- Editor de elementos: textos, campos, botões e interruptores.
+- Prévia da tela, troca de cor, reordenação e renomeação.
+- Projetos gravados automaticamente com Android AtomicFile.
+- Reabertura do último projeto e backup/importação JSON.
+
+**Limites:** os modelos são exemplos de interface, não sistemas de negócios completos. O gerador de código-fonte de aplicativos derivados e o arrastar-e-soltar ainda não fazem parte desta versão hospedada.
+
+## Obter o APK
+No GitHub, abra **Actions > Gerar APK AppForge Mobile**. Após uma execução bem-sucedida, baixe o artefato **AppForge-Mobile-APK-teste**. Dentro do ZIP do GitHub estará o APK debug instalável (Android 8+).
+
+## Cuidados com atualizações
+O APK desta fase é debug. Executores diferentes do GitHub Actions podem assinar APKs debug com chaves diferentes. Portanto, atualizações podem exigir outra assinatura e impedir instalação sobre a versão antiga. Faça backup antes de qualquer desinstalação e use uma chave de assinatura release persistente para versões futuras. Não perca seus projetos.
